@@ -1,0 +1,21 @@
+{
+  "name": "chowhwei/fwsdk",
+  "description": "FreeWil SDK for PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhou Hui",
+      "email": "chowhwei@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.3.0",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}
