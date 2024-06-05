@@ -10,12 +10,16 @@
     }
   ],
   "require": {
-    "php": ">=8.3.0",
+    "php": "^8.1",
     "ext-json": "*",
     "ext-mbstring": "*"
   },
+  "suggest": {
+
+  },
   "autoload": {
     "psr-4": {
+      "FreeWil\\": "src/FreeWil/"
     }
   }
 }
